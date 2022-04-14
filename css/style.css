@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+:root{
+    --color--:#FA4A0C;
+    --color1--:#E4E4E4;
+    --color2--:#737373;
+}
+header .navbar .container{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+header .navbar img{
+    width: 180px;
+}
+header .navbar .nav_title {
+    display: flex;
+    align-items: center;
+}
+header .navbar .nav_title li {
+    margin: 0 50px;
+}
+header .navbar .nav_title li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: .65s;
+}
+header .navbar .nav_title li a:hover{
+    color: var(--color--);
+}
+header .main {
+    background: url(../img/Rectangle\ 48\ \(1\).png ) no-repeat 0 0/ cover;
+    background-size: 100%;
+    padding: 60px 0px;
+}
+header .main .main_link{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-left: 530px;
+    font-weight: bold;
+}
+header .main h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 55%;
+    margin-left: 250px;
+    line-height: 60px;
+}
+header .main p {
+    text-align: center;
+    color: var(--color1--);
+    margin-top: 30px;
+}
+header .main .ma_link1{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+header .main .ma_link1 li a{
+    color: white;
+    font-size: 20px;
+    border: 1px solid var(--color--);
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+header .main .ma_link1 li {
+    margin: 40px 10px;
+}
+header .main .ma_link1 li a:hover{
+    background-color: var(--color--);
+}
+.mians .section1 .container{
+    position: relative;
+}
+.mains .section1 .sec1_imgs{
+    display: flex;
+}
+.mains .section1 .sec1_imgs img{
+    width: 400px;   
+    position: absolute;
+    left: 30%;
+    top: 63%;
+}
+.mains .section1 .sec1_imgs .img1sec1{
+    width: 200px;
+    height: 370px;
+    position: absolute;
+    left: 48%;
+    top: 85%;
+}
+.mains .section1 .sec1_texts{
+    border-top: 1px solid var(--color2--);
+    margin-top: 480px;
+}
+.mains .section1 .sec1_texts h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 100px 0px 0px 0px;
+}
+.mains .section2 .container{
+    display: flex;
+    align-items: center;
+}
+.mains .section2 .sec2_texts h4{
+    color: var(--color--);
+    font-size: 23px;
+}
+.mains .section2 .sec2_texts h2 {
+    font-size: 30px;
+    width: 70%;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+.mains .section2 .sec2_texts p {
+    color: var(--color2--);
+    font-size: 20px;
+    width: 55%;
+    line-height: 30px;
+}
+.mains .section3 .container{
+    display: flex;
+    align-items: center;
+}
+.mains .section3 .sec3_texts{
+    margin-left: 110px;
+}
+.mains .section3 .sec3_texts h4{
+    color: var(--color--);
+    font-size: 23px;
+}
+.mains .section3 .sec3_texts h2 {
+    font-size: 30px;
+    width: 70%;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+.mains .section3 .sec3_texts p {
+    color: var(--color2--);
+    font-size: 20px;
+    width: 65%;
+    line-height: 30px;
+}
+.mains .section4{
+    background: url(../img/Rectangle\ 47\ \(1\).png) no-repeat 0 0/ cover;
+    background-size: 100%;
+    padding: 100px 0px 60px 0px;
+}
+.mains .section4 h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+.mains .section4 p {
+    color: var(--color1--);
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+ .mains .section4 .sec4_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mains .sec4_links a{
+    color: white;
+    font-size: 18px;
+    margin: 40px 10px;
+    border: 1px solid var(--color--);
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: .65s;
+}
+.mains .sec4_links a:hover{
+    background-color: var(--color--);
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.footer img {
+    width: 200px;
+}
+.footer .footer_item{
+    display: flex;
+    align-items: center;
+}
+.footer .footer_item li {
+    margin: 0 10px;
+}
+.footer .footer_item li .bx{
+    font-size: 30px;
+    color: var(--color--);
+}
+.footer p {
+    font-size: 12px;
+    color: var(--color2--);
+}
